@@ -1,0 +1,36 @@
+{
+	"name": "configurable-module",
+	"description": "NodeJS configurable module with lazy init",
+	"version": "0.0.1",
+	"private": true,
+	"author": {
+		"name": "Nik Butenko",
+		"email": "nik@butenko.me"
+	},
+	"contributors": [
+		{
+			"name": "Nik Butenko",
+			"email": "nik@butenko.me"
+		}
+	],
+	"scripts": {
+		"test": "node node_modules/grunt-cli/bin/grunt buster"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:nkbt/configurable-module.git"
+	},
+	"dependencies": {
+		"underscore": "~1.5.2",
+		"node-clone": "~0.1.1"
+	},
+	"devDependencies": {
+		"buster": "~0.7.8",
+		"grunt-buster": "~0.3.1",
+		"grunt-contrib-jshint": "~0.7.2",
+		"grunt-contrib-watch": "~0.5.3",
+		"grunt-contrib-requirejs": "~0.4.1",
+		"grunt": "~0.4.2",
+		"grunt-cli": "~0.1.11"
+	}
+}
