@@ -21,16 +21,16 @@
 		"url": "git@github.com:nkbt/configurable-module.git"
 	},
 	"dependencies": {
-		"underscore": "1.5.2"
+		"underscore": "1.8.3"
 	},
 	"devDependencies": {
-		"underscore": "~1.5.2",
+		"underscore": "~1.8.3",
 		"buster": "~0.7.8",
-		"grunt-buster": "~0.3.1",
-		"grunt-contrib-jshint": "~0.7.2",
-		"grunt-contrib-watch": "~0.5.3",
-		"grunt-contrib-requirejs": "~0.4.1",
-		"grunt": "~0.4.2",
-		"grunt-cli": "~0.1.11"
+		"grunt-buster": "~0.4.2",
+		"grunt-contrib-jshint": "~1.0.0",
+		"grunt-contrib-watch": "~1.0.0",
+		"grunt-contrib-requirejs": "~1.0.0",
+		"grunt": "~1.0.1",
+		"grunt-cli": "~1.2.0"
 	}
 }
